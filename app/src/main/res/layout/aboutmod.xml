@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="top|center"
+	android:background="#7986CB">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:textStyle="bold|italic|normal"
+		android:paddingTop="5dp"
+		android:textColor="#FEFEFE"
+		android:id="@+id/modmingzi"/>
+
+	<ImageView
+		android:layout_width="180dp"
+		android:layout_height="180dp"
+		android:layout_marginTop="10dp"
+		
+		android:id="@+id/modtupian"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="删除该MOD"
+		android:layout_marginTop="8dp"
+		android:textStyle="bold|normal"
+		android:onClick="delete"
+		android:id="@+id/shanchu"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="top|left"
+		android:paddingTop="10dp"
+		android:layout_marginTop="10dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="作者：unknown"
+			android:gravity="left"
+			android:id="@+id/zuozhe"
+			android:textColor="#FEFEFE"
+			android:textSize="24sp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="路径：unknown"
+			android:layout_marginTop="12dp"
+			android:gravity="left"
+			android:id="@+id/lujing"
+			android:textSize="20sp"
+			android:textColor="#FEFEFE"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="版本：unknown"
+			android:gravity="left"
+			android:textSize="20sp"
+			android:layout_marginTop="12dp"
+			android:id="@+id/banben"
+			android:textColor="#FEFEFE"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="描述：unknown"
+			android:gravity="left"
+			android:textSize="20sp"
+			android:layout_marginTop="12dp"
+			android:id="@+id/miaoshu"
+			android:textColor="#FEFEFE"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICMOD安装器</string>
+	<string name="Title">ICMOD安装器</string>
+	    <string name="main标题">MOD 安装器</string>
+	    <string name="main按钮">选择文件</string>
+    <string name="main按钮下载">下载INNER CORE及MOD</string>
+        <string name="mainbar关于">关于这款软件</string>
+        <string name="mainbar加群">加入宣传群</string>
+        <string name="mainbar刷新">刷新MOD列表</string>
+        <string name="mainbar打开">打开Inner Core</string>
+        <string name="mainbar退出">退出软件</string>
+        <string name="Subtit">文件选择</string>
+        <string name="Subbar搜索总">搜索全部ZIP文件</string>
+        <string name="Subbar搜索副">返回文件总列表</string>
+        <string name="SubDialog搜索">你确定要搜索吗？</string>
+        <string name="SubDialog搜索副">搜索为耗时操作。\n炸鸡慎用。</string>
+        <string name="SubDialog退出">返回列表？</string>
+        <string name="SubDialog退出副">此操作将返回SD卡列表。</string>
+        <string name="Subtoast次">共搜索到 : </string>
+        <string name="取消">取消</string>
+        <string name="确定">确定</string>
+        <string name="aboutAPPtit">关于</string>
+        <string name="aboutAPP声明">软件声明:</string>
+        <string name="aboutAPP内容">本软件是为INNER CORE内核设计的MOD安装器。由@青铜火机和电吹风 独立制作完成。</string>
+        <string name="aboutAPP人员">技术人员参考名单:</string>
+        <string name="MODdel">删除该MOD</string>
+        <string name="MODwriter">作者: </string>
+        <string name="MODpath">路径: </string>
+        <string name="MODver">版本: </string>
+        <string name="MOD描述">描述: </string>
+        <string name="APPexit">真的要退出吗QAQ</string>
+        <string name="APPMODpic">未找到MOD图片</string>
+        <string name="APPstat">配置文件，不支持查看哦~</string>
+        <string name="MODdell">真的要删除我吗ヽ( ຶ▮ ຶ)ﾉ!!!</string>
+        <string name="openf">打开失败！未下载或下载了盗版的INNER CORE，请从本软件内或官网下载</string>
+        <string name="pull_to_refresh">下拉可以刷新</string>  
+    <string name="release_to_refresh">释放立即刷新</string>  
+    <string name="refreshing">正在刷新…</string>  
+    <string name="not_updated_yet">暂未更新过</string>  
+    <string name="updated_at">上次更新于%1$s前</string>  
+    <string name="updated_just_now">刚刚更新</string>  
+    <string name="time_error">时间有问题</string>
+        <string name="unziptoa_uniszip">所选文件不是压缩文件，请重试。</string>
+        <string name="unziptoa_unzip">选择压缩文件成功，正在解压...</string>
+        <string name="unziptoa_cg">MOD安装成功，打开内核试试看吧！</string>
+        <string name="unziptoa_repeat">重复安装，已覆盖之前版本内容。</string>
+        <string name="main不支持">开发未完成</string>
+        
+
+</resources>

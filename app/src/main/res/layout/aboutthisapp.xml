@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#7986CB">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="软件声明："
+		android:gravity="center"
+		android:id="@+id/aboutthisappTextView1"
+		android:textStyle="bold|italic|normal"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:id="@+id/aboutthisappTextView2"
+		android:text="本软件是为INNER CORE内核设计的MOD安装器。由@青铜火机和电吹风 独立制作完成。"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="技术参考人员名单："
+		android:id="@+id/aboutthisappTextView3"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="1。⑨妹(爱称) 10935336"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="2。翔四先森(My Teacher)"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="3。閃現の既視感(咸鱼dalao)(最重要技术支持人)"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="4。新手上路(好基友)(最萌年龄差)"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="5。阿特我自己(温柔的dalao)(服务器提供者)(MODPE函数表作者)"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="6。sij...(另一位好基友，认识时间不长)(同龄)"
+		android:padding="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="待续... ..."
+		android:padding="15dp"/>
+
+</LinearLayout>
+

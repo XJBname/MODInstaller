@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="320dp"
+			android:layout_width="220dp"
+			android:text="点击跳转加群链接"
+			android:textStyle="bold|italic|normal"
+			android:layout_centerInParent="true"
+			android:background="@drawable/image_1"
+			android:gravity="top|center"
+			android:id="@+id/jqButton"
+			android:onClick="jqqq"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
